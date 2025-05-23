@@ -1,5 +1,7 @@
 #!/bin/bash
 
+##script: minfo.sh
+
 if [ "$#" -ne 1 ]; then
     echo "Uso: ./minfo.sh {hostname|uptime|disk|all}"
     exit 1
